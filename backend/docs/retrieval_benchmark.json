@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "baseline",
+    "queries_evaluated": 16,
+    "recall_at_5": 0.9375,
+    "precision_at_5": 0.9375,
+    "mrr": 0.9375,
+    "mean_latency_ms": 1795.42
+  },
+  {
+    "mode": "hyde",
+    "queries_evaluated": 16,
+    "recall_at_5": 0.875,
+    "precision_at_5": 0.875,
+    "mrr": 0.875,
+    "mean_latency_ms": 3172.83
+  },
+  {
+    "mode": "hyde_hybrid",
+    "queries_evaluated": 16,
+    "recall_at_5": 1.0,
+    "precision_at_5": 0.6625,
+    "mrr": 0.9062,
+    "mean_latency_ms": 2559.64
+  }
+]

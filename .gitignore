@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+backend/venv/
+.pytest_cache/
+backend/.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Environment
+.env
+backend/.env
+*.env.local
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Qdrant local data
+qdrant_storage/
+
+# Temp uploads
+*.pdf.tmp
+
